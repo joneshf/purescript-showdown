@@ -7,6 +7,6 @@ module Showdown where
     "function converter(options) {\
     \  return function(markdown) {\
     \    var converter = new Showdown.converter(options);\
-    \    return converter(markdown);\
+    \    return converter.makeHtml(markdown);\
     \  }\
     \}" :: forall r. { | r } -> String -> String
