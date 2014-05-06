@@ -1,0 +1,22 @@
+{
+  "name": "purescript-showdown",
+  "version": "0.0.1",
+  "authors": [
+    "Hardy Jones <jones3.hardy@gmail.com>"
+  ],
+  "description": "Simple wrapper around Showdown.js",
+  "keywords": [
+    "purescript",
+    "showdown",
+    "markdown"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/joneshf/purescript-showdown",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "purescript-showdown",
+  "version": "0.0.1",
+  "description": "Simple wrapper around Showdown.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joneshf/purescript-showdown.git"
+  },
+  "keywords": [
+    "purescript",
+    "showdown",
+    "markdown"
+  ],
+  "author": "Hardy Jones <jones3.hardy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joneshf/purescript-showdown/issues"
+  },
+  "homepage": "https://github.com/joneshf/purescript-showdown",
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-purescript": "0.0.4"
+  }
+}
