@@ -1,12 +1,12 @@
 module Showdown where
 
   makeHtml :: String -> String
-  makeHtml = convertor {}
+  makeHtml = converter {}
 
-  foreign import convertor
-    "function convertor(options) {\
+  foreign import converter
+    "function converter(options) {\
     \  return function(markdown) {\
-    \    var convertor = new Showdown.convertor(options);\
-    \    return convertor(markdown);\
+    \    var converter = new Showdown.converter(options);\
+    \    return converter(markdown);\
     \  }\
     \}" :: forall r. { | r } -> String -> String
