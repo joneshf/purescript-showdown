@@ -8,5 +8,5 @@ module Showdown where
     \  return function(markdown) {\
     \    var converter = new Showdown.converter(options);\
     \    return converter.makeHtml(markdown);\
-    \  }\
+    \  };\
     \}" :: forall r. { | r } -> String -> String
